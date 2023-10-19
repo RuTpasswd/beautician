@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+.header .links {
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+}
+.header .links li {
+  list-style-type: none;
+}
+.header .links li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header .links li .active {
+  border: 1px solid #000000;
+  padding: 8px 20px;
+  border-radius: 24px;
+  font-weight: 600;
+}
